@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Tegzes Marton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Szótár</title>
+    <style>
+        body{
+            margin: auto;
+            padding: 0px    ;
+        }
+        .szotar{
+           display: grid;
+           grid-template-columns: 1fr, 1fr, 1fr; 
+        }
+        h3{
+            text-transform: uppercase;
+        }
+        .magyar{
+
+        }
+      
+        @media all and (max-width:750px){
+            .szotar{
+           display: grid;
+           grid-template-columns: 1frs;
+
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container .szotar">
+        <h2>szotar</h2>
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-xs-3 col-lg-3">
+                <h3>Angol</h3>
+                <div>big</div>
+                <div>small</div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-xs-3 col-lg-3">
+                <h3>magyar</h3>
+                <div>nagy</div>
+                <div>nagy</div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-xs-3 col-lg-3">
+                <h3>viszajelzés</h3>
+                <div>✓</div>
+                <div>X</div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
